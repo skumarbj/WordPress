@@ -1,0 +1,182 @@
+/*color theme css*/
+
+.top-bar a{
+    color:#0098ff;
+}
+
+.brand a h3 {
+    color: #0098ff;
+}
+
+.green-light {
+    background: #E4E6BE;
+}
+
+.green-dark {
+    background: #D6D99B;
+    border-bottom: 1px solid #d6d99b;
+}
+
+#set_menu ul li a{
+    color:rgb(150, 159, 4);
+}
+
+#set_menu .dropdown-menu{
+    border: 1px solid #d6d99b;
+    background: #e4e6be;
+}
+
+#set_menu .dropdown-menu a:hover{
+    background: #0098ff;
+}
+
+.cart a i{
+    color: #0098ff;
+}
+
+.ser-t b{
+    background: #0098ff;
+}
+
+.ser-t span i{
+    border: 2px solid #0098ff;
+}
+
+.special-grid h4{
+    background: #d6d99b;
+}
+
+.snipcart-details input.button, .snipcart-details input.button:hover {
+    background: #0098ff;
+}
+
+.snipcart-details input.button {
+    background: #0098ff;
+}
+
+.snipcart-details input.button, .snipcart-details input.button:hover {
+    background: #0098ff;
+}
+
+.hvr-outline-out{
+    background: #0098ff;
+}
+
+.hvr-outline-out:before{
+    border: #0098ff solid 4px;
+}
+
+.highlights .about-overlay-under,
+.highlights:hover .about-overlay-above{
+    border: 4px solid #0098ff;
+}
+
+.footer-section a:hover{
+    color: rgb(151, 160, 7);
+}
+
+.copyright a{
+    color:#0098ff;
+}
+
+#quickview .modal-header{
+    background: #0098ff;
+}
+
+#quickview .modal-body h4{
+    color: #0098ff;
+}
+
+.categories h5, .discounts h5, .best-seller h5{
+    color: #0098ff;
+}
+
+.categories h5::before, .discounts h5::before, .best-seller h5::before{
+    color: #0098ff;
+}
+
+.cart-page h3{
+    color: #0098ff;
+}
+
+.stock{
+    color: #adb706;
+}
+
+.wiz-single-post-date .day {
+    background: #d6d99b;
+}
+
+.wiz-single-post-date .month{
+    background: #0098ff;
+}
+
+.wiz-post-date .day{
+    color: #0098ff;
+}
+
+.wiz-post-date .month{
+    background: #0098ff;
+}
+
+.wiz-post-content h3 a{
+    color: #0098ff;
+}
+
+.wiz-post-meta a{
+    color:#0098ff;
+}
+
+#paginate .page-item.active .page-link{
+    background-color: #0098ff;
+    border-color: #0098ff;
+}
+
+#paginate .page-link{
+    color: #0098ff;
+}
+
+.comment-block a{
+    color: #0098ff;
+}
+
+.wiz-reply .btn-green,
+.btn-green{
+    background: #0098ff;
+}
+
+.wiz-reply .btn-green:hover,
+.btn-green:hover{
+    color: #0098ff;
+    background:#d6d99b;
+}
+
+.breadcrumb a,
+.breadcrumb-item+.breadcrumb-item::before{
+    color:#0098ff;
+}
+
+.sad i{
+    color: #0098ff;
+}
+
+#slider .btn-slide{
+    background: #0098ff;
+}
+.wiz-post-date {
+    border: 1px solid #0098ff;
+}
+.widget_calendar #wp-calendar thead,
+.widget_calendar #wp-calendar td {
+    border: 1px solid #0098ff;
+}
+.widget_calendar #wp-calendar thead {
+    background-color: #0098ff;
+}
+
+.wiz-post-date {
+    border: 1px solid #0098ff;
+}
+.nav-links a {
+    background-color: #0098ff;
+}

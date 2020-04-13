@@ -1,0 +1,540 @@
+/*
+Theme Name: Wiz eCommerce
+Author: Wizorbit
+Author URI: https://www.wizorbit.com/
+Description: Wiz eCommerce is a multipurpose WordPress WooCommerce theme. Wiz eCommerce theme gives a elegent look to your online store. The theme is suitable for any kind of eCommerce store and best suitable for furniture site. Wiz eCommerce is fully responsive and light-weight theme. Theme allows you list all kind of products to show them on front-page, it make store's home page perfect for your store. Theme support color scheme, social icons, scroll-to-top, custom background and many more features. Wiz eCommerce theme is translation ready and works perfectly with Gutenberg and other most popular page builders.
+Version: 1.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: wiz-ecommerce
+Tags: e-commerce, one-column, two-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-logo, custom-menu, featured-images, footer-widgets, full-width-template, theme-options, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Wiz eCommerce is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+*/
+
+/* =WordPress Core
+	-------------------------------------------------------------- */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important;
+}
+
+.screen-reader-text:focus {
+	background-color: #eee;
+	clip: auto !important;
+	clip-path: none;
+	color: #444;
+	display: block;
+	font-size: 1em;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000;
+	/* Above WP toolbar. */
+}
+.gallery-caption{
+
+}
+.bypostauthor{
+
+}
+/*Added */
+.wiz-comments ul{
+	list-style: none;
+}
+
+nav#set_menu {
+float: right;
+width: 100%;
+}
+
+nav#set_menu ul {
+margin: 0;
+display: inline;
+float: right;
+}
+
+nav#set_menu ul li {
+display: inline-block;
+}
+#set_menu .navbar-nav .dropdown-menu{
+position:absolute;
+}
+.wiz-cart-items{
+	display: none;
+	position: absolute;
+	z-index: 9999;
+	background-color: #fff;
+	padding: 5px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 10px #ccc;
+}
+.cart:hover .wiz-cart-items{
+	display: block;
+}
+.wiz-main-div {
+    margin: 0px auto;
+}
+.nav-links a {
+    color: #fff;
+    padding: 5px 10px;
+}
+.nav-links a:hover,
+.nav-links a:focus {
+    background-color: #000;
+    color: #fff;
+}
+.nav-links .current {
+    background-color: #000;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.comment-box,
+.widget {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.widget h6 {
+    background-color: #000;
+	color: #fff;
+    padding: 10px 10px;
+    margin: -10px -10px 15px -10px;
+}
+
+.form-submit,
+.comment-form-cookies-consent {
+    float: left;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+a, a:active{
+    outline: none;
+}
+a:focus {
+    outline:1px dashed currentColor;
+}
+.widget_calendar #wp-calendar {
+    width: 100%;
+    text-align: center;
+
+}
+.widget_calendar #wp-calendar thead {
+    color: #fff;
+}
+
+.widget_calendar #wp-calendar caption {
+    text-align: center;
+}
+.wiz-content img {
+    max-width: 100%;
+    height: auto;
+}
+.highlights a{
+    color: #000;
+}
+.ddsmoothmenu .current-page-ancestor>a,
+.ddsmoothmenu .current_page_item>a{
+    background-color: #000;
+    color: #fff;
+}
+.woocommerce-billing-fields__field-wrapper .woocommerce-input-wrapper input {
+height: 35px;
+border: 1px solid #ddd;
+padding: 5px;
+}
+
+.woocommerce-billing-fields__field-wrapper .woocommerce-input-wrapper {
+display: block;
+width: 100%;
+}
+span.woocommerce-input-wrapper {
+display: block;
+width: 100%;
+}
+span.woocommerce-input-wrapper textarea {
+border: 1px solid #ddd;
+padding: 5px;
+}
+
+.woocommerce ul.cart_list li img, .woocommerce ul.product_list_widget li img {
+    width: 80px;
+}
+.bottom-align-text {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.woocommerce-MyAccount-navigation,
+.woocommerce-MyAccount-content{
+	width:100% !important;
+}
+
+.woocommerce-MyAccount-content{
+	border: 1px solid #ddd;
+	padding:10px;
+}
+
+.woocommerce-MyAccount-navigation ul{
+	padding:0;
+	list-style:none;
+	margin:0;
+}
+
+.woocommerce-MyAccount-navigation ul li {
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-bottom: 0;
+    border-radius: 5px 5px 0 0;
+}
+
+.woocommerce-MyAccount-navigation ul li a{
+	color:#333;
+    padding: 4px 10px;
+}
+
+.woocommerce-MyAccount-navigation ul li.is-active,
+.woocommerce-MyAccount-navigation ul li:hover{
+	background:#ddd;
+}
+
+.widget ul  {
+    list-style: none;
+    padding: 0;
+}
+
+.widget ul li a {
+    color: #666;
+    position: relative;
+}
+.widget .button.wc-forward{
+    background-color: #0098ff;
+    color: #fff;
+}
+.widget .button.checkout.wc-forward {
+    float: right;
+    background-color: #0098ff;
+    color: #fff;
+}
+
+.woocommerce .item-info-product a.button,
+.snipcart-details a.button{
+	margin:0 !important;
+	background:transparent !important;
+	letter-spacing: 0;
+    font-size: 13px !important;
+    color: #fff;
+}
+
+.why-us .container, .special .container, .blog-section .container {
+    background: none;
+    padding: 40px 30px;
+}
+
+.copyright {
+    background: #000000 !important;
+}
+.wiz-content .wp-block-quote:not(.is-large),
+.wiz-content .wp-block-quote:not(.is-style-large) {
+    border-left: 2px solid;
+    border-color: #0073aa;
+    padding-left: 10px;
+    font-size: 18px;
+}
+.wiz-content .wp-block-quote[style*="text-align:right"],
+.wiz-content .wp-block-quote[style*="text-align: right"] {
+    border-left: none;
+        border-left-color: currentcolor;
+        border-left-width: medium;
+    border-right: 4px solid #000;
+        border-right-color: rgb(0, 0, 0);
+        border-right-width: 4px;
+    padding-left: 0;
+    padding-right: 1em;
+}
+
+.wiz-content .wp-block-quote.is-large p,
+.wiz-content .wp-block-quote.is-style-large p{
+    font-size: 34px;
+}
+
+.item-info-product .star-rating {
+    float: none !important;
+    margin: 0 auto !important;
+}
+.brand .logo-wrapper{
+    display: block;
+    text-align: center;
+}
+.brand .logo-wrapper img{
+   max-height: 55px;
+}
+.widget .children {
+    margin: 0 0 0 10px !important;
+}
+#quickview .close {
+    background-color: none;
+    color: #000;
+    font-size: 24px;
+    border-radius: 15px;
+    right: 5px;
+    top: 0px;
+}
+#quickview .close span {
+    font-size: 34px;
+    position: absolute;
+    top: -2px;
+    left: 7px;
+}
+
+#quickview .quantity {
+    float: left;
+    margin-right: 10px;
+}
+
+#quickview .button2 .cart{
+	padding:0;
+}
+#quickview .star-rating{
+	float: none !important;
+}
+.carousel-caption h3 a{
+    color: #000;
+}
+
+.wiz-store-nav a{
+	font-weight:bold;
+	color:#000;
+}
+
+#wiz-navigation ul li a .rightarrowclass {
+    width: 15px !important;
+    height: 15px !important;
+    background-size: cover !important;
+    margin-top: -5px !important;
+}
+
+@media (max-width: 768px) {
+	.top-bar{
+		display:none;
+	}
+
+	.sticky-head{
+		position:static;
+	}
+
+	.breadcrumb {
+		float:none !important;
+		margin:10px 0 !important;
+	}
+
+	.title-bar{
+		padding:30px 0;
+	}
+
+	.woocommerce-order-overview{
+		padding:0 !important;
+	}
+
+	#select2-calc_shipping_country-container{
+		text-align:left;
+	}
+}
+
+@media screen and (max-width: 500px) {
+    .slide-desc,
+    .btn-slide {
+        display: none;
+    }
+    #wiz_ecommerce-slider h3{
+        font-size: 16px;
+        text-align: center;
+    }
+    .container{
+        max-width: 93%;
+    }
+    .wiz-cart-nav:hover .dropdown-menu {
+        display: none;
+     }
+    .woocommerce ul.products[class*="columns-"] li.product,
+    .woocommerce-page ul.products[class*="columns-"] li.product{
+        width: 100% !important;
+    }
+
+	.woocommerce-order-overview li{
+		width: 42%;
+		margin: 10px;
+	}
+
+	.woocommerce-ordering{
+		float:left !important;
+	}
+
+	#calc_shipping_state_field span:first-child{
+		width:100%;
+		text-align:left;
+	}
+
+	#calc_shipping_city_field input,
+	#calc_shipping_postcode_field input{
+		background-color: #fff;
+		border: 1px solid #aaa;
+		border-radius: 4px;
+		padding: 3px 8px;
+	}
+
+	.ser-t{
+		width:84%;
+	}
+
+	.woocommerce div.product .woocommerce-tabs ul.tabs li{
+		width:100%;
+		border-radius:0;
+	}
+}
+span.wiz-arrow {
+    display: inline-block;
+    padding: 10px;
+    float: right;
+}
+span.wiz-arrow-left {
+    padding: 5px 10px 0 0;
+}
+
+ol.carousel-indicators {
+    position: static;
+    height: 62px;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.carousel-indicators li{
+	width:42px !important;
+}
+
+#collapse-tab-list .card-header{
+	padding:0 !important;
+	border-bottom:none;
+	background-color:rgb(235, 233, 235);
+}
+
+#collapse-tab-list .card.nav-item{
+	margin-bottom:15px !important;
+}
+
+#collapse-tab-list .card-header a{
+	font-size: 18px;
+    font-weight: 600;
+}
+
+/*#commentform{
+	margin:0;
+}*/
+
+/* Do not show the outline on the skip link target. */
+#content[tabindex="-1"]:focus {
+  outline: 0;
+}
+body{
+  background-color: #f4f4f4;
+}
+.breadcrumb span {
+    word-break: break-all;
+}

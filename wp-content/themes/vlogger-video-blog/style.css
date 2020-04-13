@@ -1,0 +1,529 @@
+/*
+Theme Name: Vlogger Video Blog
+Theme URI: https://www.vwthemes.com/themes/free-wordpress-video-theme/
+Author: VWthemes
+Author URI: https://www.vwthemes.com
+Description: Vlogger video blog theme is a qualitative theme apart from being multipurpose and elegant. It has premium features and all the features are industry oriented. It is stunning with slider, copyright sections, promo section, and social options. It is sophisticated, responsive and user-friendly with a call to action button [CTA].  This WP theme is one of the very good choices for you in case you are interested in easily realizing the passion for videography. It is social media-oriented and SEO friendly making it rise high in search engine ranking. Vlogger WordPress theme is interactive with secure and clean code and has a faster page load time. It provides support to the reputed video hosting sites. It has a blogging section and is a perfect video solution for video related websites. With Vlogger video blog Theme, you can not only make video websites but movie websites as well. With this, you can generate a homepage with customizer widgets that too in a short period. It is bootstrap oriented with personalization options and customization options. It is translation ready making it easy for expanding business. You have the choice to implement the layout as a personal blog, news journals, news sites and much more. Demo: https://www.vwthemes.net/vw-video-vlog-pro/
+Template: vw-blog-magazine
+Version: 1.3.1
+License: GNU General Public License
+License URI: license.txt
+Text Domain: vlogger-video-blog
+Tags: custom-background, custom-menu, custom-colors, custom-logo, featured-images, footer-widgets, one-column, sticky-post, two-columns, theme-options, threaded-comments, right-sidebar, left-sidebar, grid-layout, three-columns, blog, e-commerce, portfolio
+*/
+
+/*------- DEFAULT CSS --------*/
+
+body{
+	font-family: 'Montserrat', sans-serif !important;
+	color: #909090 !important;
+}
+a{
+	color: #e62323;
+}
+a.button{ 
+	background: transparent;
+	border: solid 2px #222222;
+	color: #222222;
+	text-transform: none;
+}
+a.button:hover{
+	background: #e62323;
+	color: #fff;
+	border-color: #e62323;
+}
+.closepop a:focus{
+	outline: dotted 1px #fff;
+	border-bottom: solid 1px #fff;
+}
+
+/*------- LOGO --------*/
+.admin-bar #header {
+    margin-top: 32px;
+}
+#header {
+    -webkit-box-shadow: 0 8px 8px -2px #eee;
+    -moz-box-shadow: 0 8px 8px -2px #eee;
+    box-shadow: 0 8px 8px -2px #eee;
+    padding: 15px 0;
+    border-top: 5px solid #e62323;
+}
+.header-fixed {
+    -webkit-box-shadow: 0 8px 8px -2px #eee;
+    -moz-box-shadow: 0 8px 8px -2px #eee;
+    box-shadow: 0 8px 8px -2px #eee;
+    padding: 15px 0;
+    border-bottom: none;
+    border-top: 5px solid #e62323;
+}
+.logo{
+	text-align: left;
+	border: none;
+}
+.logo h1, 
+.logo p.site-title{
+	font-size: 20px;
+	letter-spacing: 0;
+	margin-bottom: 0;
+	padding: 0;
+}
+.logo p {
+    margin-bottom: 0;
+}
+.logo h1 a, 
+.logo p, 
+.logo p.site-title a{
+	color: #222222;
+}
+
+/*-------- NAVIGATION ---------*/
+
+.main-navigation a{
+    font-size: 11px;
+    letter-spacing: 1px;
+    padding: 8px;
+    color: #222222;
+}
+.main-menu{
+	text-align: right;
+}
+.main-navigation a:hover,
+.main-navigation ul.sub-menu a:hover,
+.search-box i:hover,
+.postbox:hover h2, 
+.postbox:hover i,
+.blogbutton-small:hover,
+.sidebar td#prev a,
+.entry-content a, a,
+.footer h3,
+.textwidget p a, 
+#comments p a,
+.video-content h2 a:hover,
+.playlist-box h4 a:hover,
+.footer .custom-social-icons i,
+.sidebar .custom-social-icons i {
+	color: #e62323;
+}
+.main-navigation ul ul,
+hr.big,
+input[type="submit"],
+.footer .custom-social-icons i,
+.sidebar .custom-social-icons i,
+.footer .custom-social-icons i:hover,
+.sidebar .custom-social-icons i:hover{
+	border-color: #e62323;
+}
+
+/*-------- SEARCH POPUP ---------*/
+
+.search-box label {
+	width: 80%;
+}
+#header .search-box,
+#header label{
+	margin-top: 0;
+}
+.search-box form.search-form {
+    border: solid 2px #000;
+    border-radius: 30px;
+	background: transparent;
+}
+.search-box input.search-submit {
+	padding: 10px 20px;
+    margin: 7px 0;
+}
+.search-box input.search-field {
+	border: 1px solid #ccc;
+	padding: 9px;
+}
+button.search-submit {
+	border: 0;
+	background: transparent;
+}
+.search-box input.search-field {
+	border: none;
+	padding: 10px;
+	background: transparent;
+	width: 100%;
+	font-size: 15px;
+	font-style: italic;
+	color: #999
+}
+.search-box i {
+	color: #222222;
+	cursor: pointer;
+	font-size: 15px;
+}
+
+/*------- POST CSS --------*/
+
+.postbox h2 {
+    font-size: 22px;
+    letter-spacing: 0;
+    padding: 10px 0;
+    font-weight: 700;
+}
+h2.section-title a,
+.blog-icon i,
+.sidebar th,
+.sidebar caption,
+.post-navigation .meta-nav,
+.content-vw h1{
+	color: #222222;
+}
+.postbox p {
+    font-size: 13px;
+    color: #909090;
+    margin: 15px 0 10px;
+    font-weight: normal;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+.metabox,
+.entry-date a, .entry-author a {
+    color: #909090;
+    clear: both;
+    padding: 0;
+    font-size: 13px;
+    font-weight: 600;
+}
+.metabox i{
+	font-size: 12px;
+	color: #909090;
+}
+.blogbutton-small{
+	background: #e62323;
+	border-color: #e62323;
+	padding: 10px 5px;
+}
+.read-btn{
+    margin: 25px 0;
+    display: block;
+}
+.pagination .current,
+.pagination a:hover{
+	background: #e62323;
+	color: #fff;
+}
+.pagination span, 
+.pagination a,
+.sidebar h3,
+.serach_inner input.search-submit:hover{
+	background: #222222;
+}
+.single-post h1,
+.middle-align h1 {
+    font-weight: bold;
+}
+#comments input[type="submit"].submit{
+	background: #e62323 !important;
+}
+.box-content {
+    padding: 0px 30px;
+}
+.new-text {
+    padding: 0 !important;
+}
+.service-image {
+    padding-right: 0 !important;
+}
+
+/*------- SIDEBAR CSS --------*/
+
+.sidebar input[type="submit"], 
+.footer input[type="submit"],
+.sidebar td#today,
+.footer .tagcloud a:hover,
+.scrollup i,
+input[type="submit"],
+.woocommerce #respond input#submit,
+.woocommerce a.button, .woocommerce button.button,
+.woocommerce input.button,
+.woocommerce #respond input#submit.alt,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce input.button.alt,
+.woocommerce span.onsale,
+nav.woocommerce-MyAccount-navigation ul li,
+#comments a.comment-reply-link,
+.sidebar .woocommerce-product-search button,
+.sidebar .widget_price_filter .ui-slider .ui-slider-range, 
+.sidebar .widget_price_filter .ui-slider .ui-slider-handle,
+.footer .woocommerce-product-search button,
+.footer .widget_price_filter .ui-slider .ui-slider-range, 
+.footer .widget_price_filter .ui-slider .ui-slider-handle,
+.footer .custom-social-icons i:hover,
+.sidebar .custom-social-icons i:hover{
+	background: #e62323;
+}
+.sidebar ul li a{
+	color: #909090;
+}
+.sidebar td#today a,
+a.rsswidget{
+	color: #fff;
+}
+.sidebar h3{
+	margin-top: 0;
+}
+.woocommerce-message{
+	border-top-color: #e62323;
+}
+
+/*------- TOP VIDEO SECTION CSS --------*/
+
+.page-template-custom-home-page .logo {
+    position: static;
+    padding: 0;
+}
+.top-video .mejs-overlay.mejs-layer.mejs-overlay-play {
+    z-index: 999;
+    width: auto !important;
+    left: 80%;
+}
+.top-video .mejs-overlay-button {
+    background-color: red !important;
+    border-radius: 50%;
+}
+.one, .two, .three {
+	position: relative;
+}
+.video-content {
+    position: absolute;
+    background: #fff;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10%;
+    right: 35%;
+    padding: 15px;
+    opacity: 0.9; 
+}
+.video-content h2 {
+    margin-bottom: 0;
+    text-align: left;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+}
+.top-video .metabox {
+    margin: 15px 0;
+    color: #222222;
+    font-size: 10px;
+}
+.top-video .entry-date a,.top-video .entry-author a,
+.top-video .metabox i,
+.video-content h2 a{
+	color: #222222;
+}
+.two .video-content,
+.three .video-content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.two iframe,.three iframe {
+    height: 260px;
+}
+.one iframe {
+    height: 527px;
+}
+.video-tag a.post-tag,
+.playlist-tag a.post-tag {
+    display: inline-block;
+    font-size: 14px;
+    padding: 1px 14px;
+    margin-bottom: 3px;
+}
+.video-tag a.post-tag:hover,
+.playlist-tag a.post-tag:hover{
+	color: #fff;
+}
+
+/*------- PLAYLIST CSS --------*/
+.playlist-tag{
+	position: absolute;
+	top: 8%;
+	left: 6%;
+}
+#playlist_sec {
+    padding: 3% 0;
+}
+.playlist-box h4,
+.playlist-video .metabox{
+	text-align: center;
+}
+.playlist-box h4 a{
+	color: #222222;
+    font-size: 16px;
+    font-weight: bold;
+}
+#playlist_sec .metabox{
+	padding-bottom: 15px;
+}
+#playlist_sec h3 {
+    color: #222222;
+    font-size: 32px;
+    margin-top: 0;
+    padding-top: 0;    
+    font-weight: bold;
+}
+#playlist_sec p {
+    letter-spacing: 0;
+    line-height: 2;
+}
+.more-btn a {
+    font-size: 12px;
+    border: solid 2px #222222;
+    font-weight: bold;
+    color: #222222;
+    padding: 10px 20px;
+    letter-spacing: 1px;
+}
+.more-btn {
+    margin: 20px 0;
+}
+.more-btn a:hover {
+    background: #e62323;
+    border-color: #e62323;
+    color: #fff;
+}
+.playlist-video iframe {
+    height: 205px;
+}
+#playlist_sec button.owl-next,
+#categry button.owl-next{
+	right: 0;
+}
+#playlist_sec button.owl-prev,
+#categry button.owl-prev{
+	left: 0;
+}
+#playlist_sec button.owl-prev:hover,
+#playlist_sec button.owl-next:hover,
+#categry button.owl-prev:hover,
+#categry button.owl-next:hover {
+    background: red;
+    color: #fff;
+}
+#playlist_sec .owl-dots,
+#categry .owl-dots {
+    display: none;
+}
+
+/*------- CATEGORY CSS --------*/
+
+#categry {
+    padding: 3% 0;
+    background: #f7f7f7;
+    margin: 0;
+}
+#categry h3 {
+    margin: 0;
+    padding-bottom: 30px;
+    text-align: left;
+    color: #222222;
+    font-weight: bold;
+}
+a.post-tag {
+    color: #fff;
+    background: red;
+    padding: 2px 4px;    
+    font-weight: 600;
+}
+.imagebox h4 a{
+	color: #222222;
+	font-size: 15px;
+	font-weight: bold;
+}
+.imagebox .cat-tag:hover {
+    background: #e62323;
+}
+.imagebox .cat-tag:hover a{
+	color: #fff;
+}
+.imagebox .cat-tag:hover a.post-tag{
+	background: #fff;
+	color: #e62323;
+}
+
+/*------- FOOTER CSS --------*/
+
+.footer{
+	background: #222222;	
+}
+.footer-2 {
+    background: #e62323;
+    border-top: 0;
+}
+.copyright p{
+	font-weight: 600;
+	letter-spacing: 0;
+}
+
+/*------- MEDIA CSS --------*/
+
+@media screen and (max-width:720px) {
+	.admin-bar #header {
+    	margin-top: 46px;
+	}
+	#header .search-box {
+	    margin: 10px 0;
+	}
+	.logo{
+		text-align: center;
+	}
+	.serach_inner form.search-form{
+		width: auto;
+	}
+	#playlist_sec .owl-nav,
+	#categry .owl-nav {
+    	text-align: center;
+    	margin-top: 10px;
+	}
+	#playlist_sec button.owl-prev, 
+	#playlist_sec button.owl-next,
+	#categry button.owl-next,
+	#categry button.owl-prev {
+	    border: solid 1px #000;
+	    margin-right: 5px;
+	}
+}
+
+@media screen and ( max-width: 788px ) and ( min-width: 768px ) {
+	.admin-bar #header {
+	    margin-top: 46px;
+	}
+}
+
+@media screen and (max-width: 1000px){
+	.sidenav .closebtn {
+	    left: 15px;
+	}
+	.toggle-nav i{
+		background: #e62323;
+		margin: 10px;
+	}
+	.search-box i {
+	    color: #fff;
+	    font-size: 18px;
+	    background: #e62323;
+	    padding: 12px;
+	}
+	.toggle-nav{
+		text-align: right;
+		width: 100%;
+		position: static;
+	}
+	.search-box{
+		text-align: left;
+	}
+	.single-post iframe{
+		width: 100%;
+	}
+	.page-template-custom-home-page .logo{
+		border: none;
+	}
+	.video-content{
+		right: 25%;
+	}
+}
